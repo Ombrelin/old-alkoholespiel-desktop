@@ -41,35 +41,47 @@ namespace Piccolo_2._0
 
         private void jouer()
         {
+            Boolean fini = false;
             blague.Text = "";
             participants.Text = "";
             Random rand = new Random();
             int index = rand.Next(0, blagues.Count);
-            Blague b = blagues.ElementAt(index);
-            blague.Text = b.getContenu();
-            if (b.getPersonnesConcernees() == 0)
+            Blague b = null;
+            try
             {
-                participants.Text = "Tout le monde";
+                 b = blagues.ElementAt(index);
+            } catch (Exception e)
+            {
+                this.Close();
+                fini = true;
             }
-            else
+            if (!fini)
             {
-                for (int i = 0; i < b.getPersonnesConcernees(); ++i)
+                blague.Text = b.getContenu();
+                if (b.getPersonnesConcernees() == 0)
                 {
-                    Joueur j;
-                    do
+                    participants.Text = "Tout le monde";
+                }
+                else
+                {
+                    for (int i = 0; i < b.getPersonnesConcernees(); ++i)
                     {
-                        j = Joueur.getRandomJoueur();
-                    } while (j.isPasse());
+                        Joueur j;
+                        do
+                        {
+                            j = Joueur.getRandomJoueur();
+                        } while (j.isPasse());
 
-                    participants.Text += j.getNom() + " ";
-                    j.passer();
+                        participants.Text += j.getNom() + " ";
+                        j.passer();
+                    }
+                    foreach (Joueur joueur in Joueur.getJoueurs())
+                    {
+                        joueur.pasPasse();
+                    }
                 }
-                foreach (Joueur joueur in Joueur.getJoueurs())
-                {
-                    joueur.pasPasse();
-                }
+                blagues.RemoveAt(index);
             }
-            blagues.RemoveAt(index);
         }
 
         //bouton suivant

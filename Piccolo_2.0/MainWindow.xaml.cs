@@ -31,7 +31,7 @@ namespace Piccolo_2._0
             
             Window1 joueurs = new Window1();
             joueurs.Show();
-            this.Hide();
+            joueurs.Activate();
         }
 
         //Boutton quitter
