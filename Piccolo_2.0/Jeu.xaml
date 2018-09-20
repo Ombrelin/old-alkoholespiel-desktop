@@ -1,0 +1,35 @@
+﻿<Window x:Class="Piccolo_2._0.Jeu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Piccolo_2._0"
+        mc:Ignorable="d"
+        Title="Piccolo" Height="1080" Width="1920"
+                xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        WindowStyle="None" ResizeMode="NoResize"  
+        WindowStartupLocation="CenterScreen" WindowState="Maximized" Background="#FF6A1B9A"
+        Loaded="Window_Loaded"
+        >
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="2*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="4*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.Column="1" Grid.Row="1" Orientation="Vertical" >
+            <TextBlock TextWrapping="Wrap"  TextAlignment="Justify" Height="400" x:Name="blague" FontSize="50" Foreground="#DDFFFFFF"></TextBlock>
+        </StackPanel>
+        <TextBlock Grid.ColumnSpan="3" TextAlignment="Center" x:Name="participants" FontSize="40" Foreground="#DDFFFFFF" FontWeight="Bold"></TextBlock>
+        <Button x:Name="btnJouer" Grid.ColumnSpan="3" Grid.Row="2" Height="150" Width="700" FontSize="100" Content="Commencer" Click="Button_Click_1"></Button>
+        <Button x:Name="btnSuivant" Grid.ColumnSpan="3" Grid.Row="3" Height="150" Width="700" FontSize="100" Content="Suivant" Click="Button_Click" Visibility="Hidden"></Button>
+        <ProgressBar x:Name="bar" Grid.Column="1" Grid.Row="2" Height="30" Visibility="Hidden" Foreground="#FF4A148C"></ProgressBar>
+    </Grid>
+</Window>
