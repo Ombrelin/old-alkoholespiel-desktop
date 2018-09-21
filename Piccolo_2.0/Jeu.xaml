@@ -27,7 +27,7 @@
         <StackPanel Grid.Column="1" Grid.Row="1" Orientation="Vertical" >
             <TextBlock TextWrapping="Wrap"  TextAlignment="Justify" Height="400" x:Name="blague" FontSize="50" Foreground="#DDFFFFFF"></TextBlock>
         </StackPanel>
-        <TextBlock Grid.ColumnSpan="3" TextAlignment="Center" x:Name="participants" FontSize="40" Foreground="#DDFFFFFF" FontWeight="Bold"></TextBlock>
+        
         <Button x:Name="btnJouer" Grid.ColumnSpan="3" Grid.Row="2" Height="150" Width="700" FontSize="100" Content="Commencer" Click="Button_Click_1"></Button>
         <Button x:Name="btnSuivant" Grid.ColumnSpan="3" Grid.Row="3" Height="150" Width="700" FontSize="100" Content="Suivant" Click="Button_Click" Visibility="Hidden"></Button>
         <ProgressBar x:Name="bar" Grid.Column="1" Grid.Row="2" Height="30" Visibility="Hidden" Foreground="#FF4A148C"></ProgressBar>

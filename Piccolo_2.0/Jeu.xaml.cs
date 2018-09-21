@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using System.IO;
+using System.Text.RegularExpressions;
 
 namespace Piccolo_2._0
 {
@@ -39,14 +40,25 @@ namespace Piccolo_2._0
             bar.Maximum = blagues.Count;
         }
 
+        public static string ReplaceFirstOccurrence(string Source, string Find, string Replace)
+        {
+            int Place = Source.IndexOf(Find);
+            string result = "";
+            try
+            {
+                result = Source.Remove(Place, Find.Length).Insert(Place, Replace);
+            } catch (Exception e) { Console.WriteLine(e.ToString()); }
+            return result;
+        }
+
         private void jouer()
         {
             Boolean fini = false;
             blague.Text = "";
-            participants.Text = "";
             Random rand = new Random();
             int index = rand.Next(0, blagues.Count);
             Blague b = null;
+            String preparedBlague = "";
             try
             {
                  b = blagues.ElementAt(index);
@@ -57,13 +69,10 @@ namespace Piccolo_2._0
             }
             if (!fini)
             {
-                blague.Text = b.getContenu();
-                if (b.getPersonnesConcernees() == 0)
+                preparedBlague = b.getContenu();
+                if (!(b.getPersonnesConcernees() == 0))
                 {
-                    participants.Text = "Tout le monde";
-                }
-                else
-                {
+                    
                     for (int i = 0; i < b.getPersonnesConcernees(); ++i)
                     {
                         Joueur j;
@@ -72,7 +81,8 @@ namespace Piccolo_2._0
                             j = Joueur.getRandomJoueur();
                         } while (j.isPasse());
 
-                        participants.Text += j.getNom() + " ";
+
+                        preparedBlague = ReplaceFirstOccurrence(preparedBlague, "$", j.getNom());
                         j.passer();
                     }
                     foreach (Joueur joueur in Joueur.getJoueurs())
@@ -81,6 +91,8 @@ namespace Piccolo_2._0
                     }
                 }
                 blagues.RemoveAt(index);
+
+                blague.Text = preparedBlague;
             }
         }
 
