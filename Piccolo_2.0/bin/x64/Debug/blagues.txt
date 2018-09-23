@@ -1,13 +1,13 @@
 ﻿0
 Ceux qui se sont déjà masturbés en pensant au partenaire d'un ou d'une pote boivent 2 gorgées
 0
-Jeu : Plutot être coince sur une île déserte avec les 4 personnes que tu détestes le plus ou y être en solitaire ? Votez, ceux qui perdent boivent 3 gorgées
-0
-Jeu : "Les activites pratique pour se défendre", celui qui répété ou ne trouve pas prend 3 gorgées. $ commence
+Jeu : Plutôt être coince sur une île déserte avec les 4 personnes que tu détestes le plus ou y être en solitaire ? Votez, ceux qui perdent boivent 3 gorgées
+1
+Jeu : "Les activités pratique pour se défendre", celui qui répète ou ne trouve pas prend 3 gorgées. $ commence
 0
 Distribue 3 gorgées si t'as déjà eu un animal autre qu'un chien ou un chat
 0
-Jeu : A tour de role, vous avez exactement 2 secondes pour donner un mot en rapport avec le mot dit précédemment. Celui qui perd boit 2 gorgées ! $ choisit son mot et commence
+Jeu : A tour de rôle, vous avez exactement 2 secondes pour donner un mot en rapport avec le mot dit précédemment. Celui qui perd boit 2 gorgées ! $ choisit son mot et commence
 0
 Bois 2 gorgées si tu t'es déjà fait prendre a frauder par un contrôleur de transport public, +1 si ça n'est pas arrivé qu'une fois
 1
@@ -19,10 +19,10 @@ La plus jeune personne a s'être pris une cuite distribue 3 gorgées
 1
 $ choisit quelqu'un pour faire un slow de 30 secondes, mains sur les fesses. La personne qui refuse prend 3 gorgées
 0
-Le dernier joueur a avoir fete son anniversaire peut distribuer 2 gorgées !
-0
+Le dernier joueur a avoir fête son anniversaire peut distribuer 2 gorgées !
+1
 Jeu : Tous a vos feutres ! On dessine chacun un petit zizi sauf $ qui décide lequel est le plus beau. Le gagnant distribue 4 gorgées
-0
+1
 Jeu : "Les trucs a emmener en vacances", celui qui répète ou ne trouve pas prend 4 gorgées. $ commence
 0
 Ceux qui ont déjà lu en secret les textos de son/sa boivent 2 gorgées
@@ -179,7 +179,7 @@ Si tu parles (bien, genre tu peux tenir une conversation avec qq du terre-terre)
 0
 Jeu : "Palestine ou Palestauchocolat ?" Les minoritaires boivent 2 gorgées
 0
-Jeu : Blind test ! Chaque joueur met une musique, $ a trouver le titre, le jeu ou le film dont la musique est tirée distribue 3 gorgées
+Jeu : Blind test ! Chaque joueur met une musique, le premier à trouver le titre, le jeu ou le film dont la musique est tirée distribue 3 gorgées
 0
 Le dernier arrive a la soirée boit 4 gorgées !
 1
@@ -229,7 +229,7 @@ $ doit réciter les 5 piliers de l'islam. Si il n'y arrive pas il doit boire 3 g
 1
 $ doit réciter les 7 arts. Si il n'y arrive pas il doit boire 3 gorgées. Il peut designer quelqu'un d'autre pour finir mais si l'autre ne sait pas non plus. L'autre boit 3 gorgée et $ en boit 6 au lieu de 3.
 1
-$ met une musique, $ a trouver distribue 4 gorgées (cris autorisées)
+$ met une musique, le premier a trouver distribue 4 gorgées (cris autorisées)
 1
 Jeu : "Thème : Les mangas" Le premier a ne pas avoir d'idée ou a répéter boit 3 gorgées. $ commence
 2
