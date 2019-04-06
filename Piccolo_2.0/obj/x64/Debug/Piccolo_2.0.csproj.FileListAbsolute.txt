@@ -73,3 +73,28 @@ C:\Users\arsen\Nextcloud\Workspaces\Visual Studio Desktop\Piccolo\Piccolo_2.0\ob
 C:\Users\arsen\Nextcloud\Workspaces\Visual Studio Desktop\Piccolo\Piccolo_2.0\obj\x64\Debug\Piccolo_2.0.csproj.CopyComplete
 C:\Users\arsen\Nextcloud\Workspaces\Visual Studio Desktop\Piccolo\Piccolo_2.0\obj\x64\Debug\Piccolo_2.0.exe
 C:\Users\arsen\Nextcloud\Workspaces\Visual Studio Desktop\Piccolo\Piccolo_2.0\obj\x64\Debug\Piccolo_2.0.pdb
+C:\Users\arsen\git\Piccolo\Piccolo_2.0\bin\x64\Debug\Piccolo_2.0.exe.config
+C:\Users\arsen\git\Piccolo\Piccolo_2.0\bin\x64\Debug\Piccolo_2.0.exe
+C:\Users\arsen\git\Piccolo\Piccolo_2.0\bin\x64\Debug\Piccolo_2.0.pdb
+C:\Users\arsen\git\Piccolo\Piccolo_2.0\bin\x64\Debug\MaterialDesignColors.dll
+C:\Users\arsen\git\Piccolo\Piccolo_2.0\bin\x64\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\arsen\git\Piccolo\Piccolo_2.0\bin\x64\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\arsen\git\Piccolo\Piccolo_2.0\bin\x64\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\arsen\git\Piccolo\Piccolo_2.0\obj\x64\Debug\Piccolo_2.0.csprojAssemblyReference.cache
+C:\Users\arsen\git\Piccolo\Piccolo_2.0\obj\x64\Debug\Jeu.g.cs
+C:\Users\arsen\git\Piccolo\Piccolo_2.0\obj\x64\Debug\MainWindow.g.cs
+C:\Users\arsen\git\Piccolo\Piccolo_2.0\obj\x64\Debug\joueurs.g.cs
+C:\Users\arsen\git\Piccolo\Piccolo_2.0\obj\x64\Debug\App.g.cs
+C:\Users\arsen\git\Piccolo\Piccolo_2.0\obj\x64\Debug\Piccolo_2.0_MarkupCompile.cache
+C:\Users\arsen\git\Piccolo\Piccolo_2.0\obj\x64\Debug\Piccolo_2.0_MarkupCompile.lref
+C:\Users\arsen\git\Piccolo\Piccolo_2.0\obj\x64\Debug\App.baml
+C:\Users\arsen\git\Piccolo\Piccolo_2.0\obj\x64\Debug\Jeu.baml
+C:\Users\arsen\git\Piccolo\Piccolo_2.0\obj\x64\Debug\MainWindow.baml
+C:\Users\arsen\git\Piccolo\Piccolo_2.0\obj\x64\Debug\joueurs.baml
+C:\Users\arsen\git\Piccolo\Piccolo_2.0\obj\x64\Debug\Piccolo_2.0.g.resources
+C:\Users\arsen\git\Piccolo\Piccolo_2.0\obj\x64\Debug\Piccolo_2._0.Properties.Resources.resources
+C:\Users\arsen\git\Piccolo\Piccolo_2.0\obj\x64\Debug\Piccolo_2.0.csproj.GenerateResource.cache
+C:\Users\arsen\git\Piccolo\Piccolo_2.0\obj\x64\Debug\Piccolo_2.0.csproj.CoreCompileInputs.cache
+C:\Users\arsen\git\Piccolo\Piccolo_2.0\obj\x64\Debug\Piccolo_2.0.csproj.CopyComplete
+C:\Users\arsen\git\Piccolo\Piccolo_2.0\obj\x64\Debug\Piccolo_2.0.exe
+C:\Users\arsen\git\Piccolo\Piccolo_2.0\obj\x64\Debug\Piccolo_2.0.pdb
